@@ -6,7 +6,7 @@ wxpython
 timedatectl command
 
 The application initially uses the timedatectl command to retrieve the timezone.
-If the command fails for any reason whatsoever, the application emds.
+If the command fails for any reason whatsoever, the application ends.
 A message is issued that date and time cannot be adjusted and to contact the system administrator.
 
 The application verifies if an internet connection exists by trying to contact https://gist.github.com.
