@@ -93,6 +93,7 @@ class SelectionPanel(wx.Panel):
     self.server_name = ""
     self.server_name_idx = -1
     self.current_ntp_server = ""
+    self.ntp_list = []
 
     # Create the list of timezones
     self.tz_list = pytz.all_timezones
